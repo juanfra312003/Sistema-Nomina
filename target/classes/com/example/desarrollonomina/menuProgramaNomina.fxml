@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.desarrollonomina.ControladorMenuPrincipal">
+   <children>
+      <Text layoutX="20.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido al Sistema de Nomina" textAlignment="CENTER">
+         <font>
+            <Font name="Berlin Sans FB" size="19.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="96.0" fitWidth="97.0" layoutX="105.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenesRecurso/presupuesto.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="29.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selecciona la opción que deseas realizar">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="46.0" fitWidth="68.0" layoutX="231.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenesRecurso/seleccionar.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="34.0" layoutY="321.0" mnemonicParsing="false" onAction="#agregarAsignaturaProfesor" text="Agregar Asignatura Profesor" textAlignment="CENTER">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="34.0" layoutY="352.0" mnemonicParsing="false" onAction="#agregarAsignaturaMonitor" prefHeight="21.0" prefWidth="138.0" text="Agregar Asignatura Monitor" textAlignment="CENTER">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="34.0" layoutY="381.0" mnemonicParsing="false" onAction="#calcularSalarioEmpleado" prefHeight="21.0" prefWidth="138.0" text="Calcular Salario Empleado" textAlignment="CENTER">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="35.0" layoutY="410.0" mnemonicParsing="false" onAction="#generarReporteDeNomina" prefHeight="21.0" prefWidth="138.0" text="Generar Reporte de Nomina" textAlignment="CENTER">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Text layoutX="31.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acciones del Sistema" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="128.0" fitWidth="96.0" layoutX="191.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenesRecurso/homero_400x400-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="comboBoxAcciones" layoutX="28.0" layoutY="237.0" onAction="#seleccionOpcionComboBox" prefWidth="150.0" />
+      <Button layoutX="200.0" layoutY="409.0" mnemonicParsing="false" onAction="#salirPrograma" prefHeight="22.0" prefWidth="78.0" text="Guardar Datos">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

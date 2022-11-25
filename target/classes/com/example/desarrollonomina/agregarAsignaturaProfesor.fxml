@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="413.0" prefWidth="318.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.desarrollonomina.AgregarController">
+   <children>
+      <Text layoutX="57.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Agregar Asignatura Profesor">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="17.0" layoutY="359.0" mnemonicParsing="false" onAction="#regresarAlMenu" prefHeight="13.0" prefWidth="131.0" text="Volver al Menu Principal">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="127.0" fitWidth="122.0" layoutX="98.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenesRecurso/profesor.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="ingresarNombreAsignatura" layoutX="17.0" layoutY="257.0" prefHeight="26.0" prefWidth="131.0" />
+      <TextField fx:id="ingresarNombre" layoutX="172.0" layoutY="257.0" prefHeight="26.0" prefWidth="131.0" />
+      <TextField fx:id="ingresarCantidadHoras" layoutX="17.0" layoutY="305.0" prefHeight="26.0" prefWidth="131.0" />
+      <ImageView fitHeight="43.0" fitWidth="57.0" layoutX="216.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenesRecurso/libros-de-texto.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="24.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Informacion Asignatura" textAlignment="CENTER">
+         <font>
+            <Font name="Berlin Sans FB" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="179.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Información Docente" textAlignment="CENTER">
+         <font>
+            <Font name="Berlin Sans FB" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="17.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingresa el nombre de la Asignatura." wrappingWidth="117.041015625">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Text>
+      <Text layoutX="17.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingresa la cantidad de horas de la clase." wrappingWidth="131.20000000000005">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Text>
+      <Text layoutX="172.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingresa el nombre del docente." wrappingWidth="131.20000000000005">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Text>
+      <Button layoutX="206.0" layoutY="359.0" mnemonicParsing="false" onAction="#registrarUsuario" prefHeight="13.0" prefWidth="63.0" text="Registrar">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
