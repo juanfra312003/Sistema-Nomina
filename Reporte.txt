@@ -1,0 +1,6 @@
+Angela Carrillo , 123 ,  \$9152000.0
+Berenice Suarez , 456 ,  \$4400000.0
+Estefania Bermudez , 567 ,  \$1600000.0
+Alejandro Sierra , 222 ,  \$8272000.0
+Diana Bustamante , 333 ,  \$1760000.0
+Juan Garcés , 444 ,  \$1300000.0

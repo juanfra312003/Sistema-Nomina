@@ -1,0 +1,27 @@
+Angela Carrillo%123%Profesor
+Titular
+POO ,20
+Inteligencia Artificial ,40
+Pensamiento Sistemico ,10
+Comunicaciones y Redes,10
+#
+Berenice Suarez%456%Empleado
+5.0
+#
+Estefania Bermudez%567%Monitor
+Programacion Avanzada ,30
+Programacion Avanzada ,30
+Comunicaciones y Redes ,20
+#
+Alejandro Sierra%222%Profesor
+Asistente
+Bases de Datos ,50
+Gestión de Datos ,30
+#
+Diana Bustamante%333%Empleado
+2.0
+#
+Juan Garcés%444%Monitor
+Ingeniería de Sw ,15
+Comunicaciones y Redes ,50
+#
